@@ -30,7 +30,6 @@ class _SuccessScreenState extends State<SuccessScreen>{
     await flutterTts.setLanguage("ar-SA");
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-
     await flutterTts.speak("عمل رائع! لقد أتممت التمرين بنجاح.");
 
   }

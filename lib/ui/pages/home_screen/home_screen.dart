@@ -38,13 +38,13 @@ class _HomeScreenState extends State<HomeScreen>{
             crossAxisAlignment: CrossAxisAlignment.center, children: [
               Text("مرحبا",style: TextStyle(fontSize: 25.sp,fontWeight: FontWeight.bold,color: AppColors.backGroundColor),),
               Text("ابدا تمارينك اليوم بحماس",style: TextStyle(fontSize: 25.sp,fontWeight: FontWeight.bold,color: AppColors.backGroundColor)),
-              SizedBox(height: 50.h,),
+              SizedBox(height: 40.h,),
               CustomButton(imageBtn: ImageAssets.run,textBtn: "التمارين الجسدية",onPressed: (){},),
-              SizedBox(height: 18.h,),
+              SizedBox(height: 15.h,),
               CustomButton(imageBtn: ImageAssets.brain,textBtn: "التمارين الذهنية",onPressed: (){},),
-              SizedBox(height: 18.h,),
+              SizedBox(height: 15.h,),
               CustomButton(imageBtn: ImageAssets.sound,textBtn: "التمارين الصوتية",onPressed: (){},),
-              SizedBox(height: 18.h,),
+              SizedBox(height: 15.h,),
               CustomButton(imageBtn: ImageAssets.write,textBtn: "التمارين المهارية",onPressed: (){
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>SkillExercies()));},
               ),
